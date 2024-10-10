@@ -55,14 +55,14 @@
 
 ### Run the project
 
-1. Set up the configuration file (dft.conf), a sample is
+1. Set up the configuration file (dft.conf), a sample is(change the $DIRECTORY_TO_PHOSPHOR to where the PHOSPHOR locates, the default is $HOME)
 
    ```ini
    # dft.conf
    dft-host = 127.0.0.1
    dft-port = 8787
-   dft-phosphor-java = $HOME/phosphor/Phosphor/target/jre-inst-int
-   dft-phosphor-jar = $HOME/phosphor/Phosphor-0.0.3-SNAPSHOT.jar
+   dft-phosphor-java = $DIRECTORY_TO_PHOSPHOR/Phosphor/target/jre-inst-int
+   dft-phosphor-jar = $DIRECTORY_TO_PHOSPHOR/phosphor/Phosphor-0.0.3-SNAPSHOT.jar
    dft-phosphor-cache = dft-cache
    dft-graph-dump-path = graph.dump
    ```

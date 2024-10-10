@@ -30,7 +30,7 @@ git clone https://github.com/hku-systems/kakute.git
 
 ```
 
-Setup the correct phosphor directory in core/pom.xml
+Setup the correct phosphor directory in core/pom.xml (change $DIRECTORY_TO_PHOSPHOR to where the PHOSPHOR locates, the default is $HOME)
 ```
 <dependency>
   <groupId>edu.columbia.cs</groupId>
@@ -47,7 +47,7 @@ cd kakute
 build/mvn -DskipTests clean package
 ```
 
-Modify **dft.conf** according your configuration of phosphor.
+Modify **dft.conf** according your configuration of phosphor. (change $DIRECTORY_TO_PHOSPHOR to where the PHOSPHOR locates, the default is $HOME)
 ```
 dft-host = 127.0.0.1 // driver host ip
 dft-port = 8787 // driver host port
