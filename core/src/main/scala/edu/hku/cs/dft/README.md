@@ -61,8 +61,8 @@
    # dft.conf
    dft-host = 127.0.0.1
    dft-port = 8787
-   dft-phosphor-java = /home/jianyu/phosphor/Phosphor/target/jre-inst-int
-   dft-phosphor-jar = /home/jianyu/phosphor/Phosphor-0.0.3-SNAPSHOT.jar
+   dft-phosphor-java = $HOME/phosphor/Phosphor/target/jre-inst-int
+   dft-phosphor-jar = $HOME/phosphor/Phosphor-0.0.3-SNAPSHOT.jar
    dft-phosphor-cache = dft-cache
    dft-graph-dump-path = graph.dump
    ```
